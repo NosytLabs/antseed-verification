@@ -1,25 +1,25 @@
 {
   "ants": {},
-  "generated_at": 1794215930.4128942,
-  "generated_at_iso": "2026-11-09T09:18:50Z",
+  "generated_at": 1794216230.5323193,
+  "generated_at_iso": "2026-11-09T09:23:50Z",
   "models": [
     {
-      "avg_ms": 25334.9,
+      "avg_ms": 25333.7,
       "errors": 436,
       "model": "zai-org/GLM-5.3-Flash",
-      "requests": 22233
+      "requests": 22234
     },
     {
-      "avg_ms": 4895.1,
+      "avg_ms": 4894.7,
       "errors": 46,
       "model": "MiniMaxAI/MiniMax-M2.7",
-      "requests": 12142
+      "requests": 12143
     },
     {
-      "avg_ms": 21448.6,
+      "avg_ms": 21446.8,
       "errors": 126,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "requests": 11123
+      "requests": 11124
     },
     {
       "avg_ms": 34517.4,
@@ -107,7 +107,7 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 13095
+    "uptime_s": 13395
   },
   "timeline": [
     {
@@ -948,13 +948,13 @@
     {
       "errors": 0,
       "hour": "2026-11-09T09:00Z",
-      "requests": 11
+      "requests": 14
     }
   ],
   "traffic": {
     "avg_latency_ms": 23532.8,
-    "avg_ms": 18892.9,
-    "completed": 45382,
+    "avg_ms": 18891.7,
+    "completed": 45385,
     "errors": 629,
     "free_tier_buyers": 48,
     "free_tier_calls": 722,
@@ -962,9 +962,9 @@
     "input_tokens": 1371879909,
     "max_ms": 652316,
     "output_tokens": 30203860,
-    "req_bytes": 5901885575,
-    "requests": 45773,
-    "resp_bytes": 2617091041,
+    "req_bytes": 5901885871,
+    "requests": 45776,
+    "resp_bytes": 2617134671,
     "today": {
       "avg_latency_ms": 4116.4,
       "events": 198,
