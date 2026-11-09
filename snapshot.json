@@ -1,10 +1,10 @@
 {
   "ants": {},
-  "generated_at": 1794264201.2896214,
-  "generated_at_iso": "2026-11-09T22:43:21Z",
+  "generated_at": 1794264503.661399,
+  "generated_at_iso": "2026-11-09T22:48:23Z",
   "models": [
     {
-      "avg_ms": 25328.2,
+      "avg_ms": 25338.3,
       "errors": 436,
       "model": "zai-org/GLM-5.3-Flash",
       "requests": 22502
@@ -16,10 +16,10 @@
       "requests": 12342
     },
     {
-      "avg_ms": 21714.0,
+      "avg_ms": 21713.0,
       "errors": 127,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "requests": 11349
+      "requests": 11358
     },
     {
       "avg_ms": 34517.4,
@@ -107,7 +107,7 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 2291
+    "uptime_s": 2593
   },
   "timeline": [
     {
@@ -948,31 +948,31 @@
     {
       "errors": 0,
       "hour": "2026-11-09T22:00Z",
-      "requests": 146
+      "requests": 155
     }
   ],
   "traffic": {
-    "avg_latency_ms": 23641.7,
-    "avg_ms": 18962.7,
-    "completed": 46060,
+    "avg_latency_ms": 23648.1,
+    "avg_ms": 18968.0,
+    "completed": 46069,
     "errors": 630,
     "free_tier_buyers": 37,
-    "free_tier_calls": 552,
+    "free_tier_calls": 561,
     "free_tier_ips": 18,
-    "input_tokens": 1375233614,
+    "input_tokens": 1375739110,
     "max_ms": 652316,
-    "output_tokens": 30510080,
-    "req_bytes": 5914432434,
-    "requests": 46468,
-    "resp_bytes": 2646062844,
+    "output_tokens": 30513228,
+    "req_bytes": 5916276119,
+    "requests": 46477,
+    "resp_bytes": 2646706981,
     "today": {
-      "avg_latency_ms": 22849.8,
-      "events": 544,
-      "input_tokens": 3362798,
-      "output_tokens": 319080,
-      "total_tokens": 3681878
+      "avg_latency_ms": 23232.8,
+      "events": 553,
+      "input_tokens": 3868294,
+      "output_tokens": 322228,
+      "total_tokens": 4190522
     },
-    "total_tokens": 1405743694
+    "total_tokens": 1406252338
   },
   "wallet": {
     "address": "0x7b35030F77793159E86933E678B4e502c8FD9509",
