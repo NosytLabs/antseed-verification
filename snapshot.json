@@ -1,25 +1,25 @@
 {
   "ants": {},
-  "generated_at": 1794191329.3935351,
-  "generated_at_iso": "2026-11-09T02:28:49Z",
+  "generated_at": 1794191639.119634,
+  "generated_at_iso": "2026-11-09T02:33:59Z",
   "models": [
     {
-      "avg_ms": 25421.9,
+      "avg_ms": 25423.2,
       "errors": 436,
       "model": "zai-org/GLM-5.3-Flash",
-      "requests": 22143
+      "requests": 22144
     },
     {
-      "avg_ms": 4910.2,
+      "avg_ms": 4909.4,
       "errors": 46,
       "model": "MiniMaxAI/MiniMax-M2.7",
-      "requests": 11999
+      "requests": 12001
     },
     {
-      "avg_ms": 21566.0,
+      "avg_ms": 21562.3,
       "errors": 126,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "requests": 11039
+      "requests": 11041
     },
     {
       "avg_ms": 34517.4,
@@ -69,45 +69,21 @@
   "redacted": true,
   "schema": 1,
   "seller": {
-    "active_channels": 8,
-    "dht_port": 56881,
+    "active_channels": 0,
+    "dht_port": null,
     "free_tier": {
       "max_concurrent_buyers": 20,
       "max_upload_bytes": 16777216,
       "per_buyer_per_day": 250,
       "per_ip_per_day": 250
     },
-    "peer_count": 0,
+    "peer_count": null,
     "peer_id": "7b35030f77793159e86933e678b4e502c8fd9509",
-    "pricing": {
-      "oma-ai": {
-        "defaults": {
-          "inputUsdPerMillion": 0.006,
-          "outputUsdPerMillion": 0
-        },
-        "services": {
-          "deepseek-v4-flash-0731": {
-            "cachedInputUsdPerMillion": 0,
-            "inputUsdPerMillion": 0.006,
-            "outputUsdPerMillion": 0
-          },
-          "glm-5.3-flash": {
-            "cachedInputUsdPerMillion": 0,
-            "inputUsdPerMillion": 0.018,
-            "outputUsdPerMillion": 0
-          },
-          "minimax-m2.7": {
-            "cachedInputUsdPerMillion": 0,
-            "inputUsdPerMillion": 0,
-            "outputUsdPerMillion": 0
-          }
-        }
-      }
-    },
+    "pricing": {},
     "provider": "oma-ai",
-    "signaling_port": 56882,
-    "state": "seeding",
-    "uptime_s": 81252
+    "signaling_port": null,
+    "state": "unknown",
+    "uptime_s": null
   },
   "timeline": [
     {
@@ -948,35 +924,35 @@
     {
       "errors": 0,
       "hour": "2026-11-09T02:00Z",
-      "requests": 23
+      "requests": 28
     }
   ],
   "traffic": {
-    "avg_latency_ms": 23634.8,
-    "avg_ms": 18994.8,
-    "completed": 45065,
+    "avg_latency_ms": 23632.7,
+    "avg_ms": 18993.9,
+    "completed": 45070,
     "errors": 628,
-    "free_tier_buyers": 62,
-    "free_tier_calls": 909,
-    "free_tier_ips": 35,
-    "input_tokens": 1371872769,
+    "free_tier_buyers": 59,
+    "free_tier_calls": 841,
+    "free_tier_ips": 31,
+    "input_tokens": 1371872931,
     "max_ms": 652316,
-    "output_tokens": 30193889,
-    "req_bytes": 5901851522,
-    "requests": 45455,
-    "resp_bytes": 2612647045,
+    "output_tokens": 30194081,
+    "req_bytes": 5901852062,
+    "requests": 45460,
+    "resp_bytes": 2612707990,
     "today": {
-      "avg_latency_ms": 8942.6,
-      "events": 44,
-      "input_tokens": 1953,
-      "output_tokens": 2889,
-      "total_tokens": 4842
+      "avg_latency_ms": 8434.1,
+      "events": 47,
+      "input_tokens": 2115,
+      "output_tokens": 3081,
+      "total_tokens": 5196
     },
-    "total_tokens": 1402066658
+    "total_tokens": 1402067012
   },
   "wallet": {
     "address": "0x7b35030F77793159E86933E678B4e502c8FD9509",
-    "balance_eth": 0.014348538219934336,
+    "balance_eth": 0.014344600411140431,
     "chain": "base"
   }
 }
