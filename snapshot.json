@@ -1,22 +1,22 @@
 {
   "ants": {},
-  "generated_at": 1794259981.036228,
-  "generated_at_iso": "2026-11-09T21:33:01Z",
+  "generated_at": 1794260278.5382228,
+  "generated_at_iso": "2026-11-09T21:37:58Z",
   "models": [
     {
-      "avg_ms": 25188.6,
+      "avg_ms": 25187.5,
       "errors": 436,
       "model": "zai-org/GLM-5.3-Flash",
-      "requests": 22433
+      "requests": 22434
     },
     {
-      "avg_ms": 4962.4,
+      "avg_ms": 4963.2,
       "errors": 46,
       "model": "MiniMaxAI/MiniMax-M2.7",
-      "requests": 12326
+      "requests": 12327
     },
     {
-      "avg_ms": 21372.5,
+      "avg_ms": 21379.0,
       "errors": 127,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
       "requests": 11272
@@ -107,7 +107,7 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 25855
+    "uptime_s": 26152
   },
   "timeline": [
     {
@@ -948,31 +948,31 @@
     {
       "errors": 0,
       "hour": "2026-11-09T21:00Z",
-      "requests": 22
+      "requests": 24
     }
   ],
   "traffic": {
-    "avg_latency_ms": 23434.2,
-    "avg_ms": 18801.8,
-    "completed": 45912,
+    "avg_latency_ms": 23436.5,
+    "avg_ms": 18803.0,
+    "completed": 45915,
     "errors": 630,
     "free_tier_buyers": 33,
     "free_tier_calls": 490,
     "free_tier_ips": 14,
-    "input_tokens": 1371890465,
+    "input_tokens": 1371890549,
     "max_ms": 652316,
-    "output_tokens": 30221468,
-    "req_bytes": 5901946966,
-    "requests": 46306,
-    "resp_bytes": 2625611453,
+    "output_tokens": 30221532,
+    "req_bytes": 5901947155,
+    "requests": 46308,
+    "resp_bytes": 2625655536,
     "today": {
-      "avg_latency_ms": 6568.1,
-      "events": 411,
-      "input_tokens": 19649,
-      "output_tokens": 30468,
-      "total_tokens": 50117
+      "avg_latency_ms": 6781.9,
+      "events": 412,
+      "input_tokens": 19733,
+      "output_tokens": 30532,
+      "total_tokens": 50265
     },
-    "total_tokens": 1402111933
+    "total_tokens": 1402112081
   },
   "wallet": {
     "address": "0x7b35030F77793159E86933E678B4e502c8FD9509",
