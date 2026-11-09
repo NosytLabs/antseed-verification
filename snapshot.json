@@ -1,13 +1,13 @@
 {
   "ants": {},
-  "generated_at": 1794189179.2165956,
-  "generated_at_iso": "2026-11-09T01:52:59Z",
+  "generated_at": 1794189479.2515635,
+  "generated_at_iso": "2026-11-09T01:57:59Z",
   "models": [
     {
-      "avg_ms": 25427.8,
+      "avg_ms": 25426.7,
       "errors": 436,
       "model": "zai-org/GLM-5.3-Flash",
-      "requests": 22136
+      "requests": 22137
     },
     {
       "avg_ms": 4915.2,
@@ -16,10 +16,10 @@
       "requests": 11985
     },
     {
-      "avg_ms": 21577.6,
+      "avg_ms": 21573.9,
       "errors": 126,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "requests": 11032
+      "requests": 11034
     },
     {
       "avg_ms": 34517.4,
@@ -107,7 +107,7 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 79101
+    "uptime_s": 79401
   },
   "timeline": [
     {
@@ -948,31 +948,31 @@
     {
       "errors": 0,
       "hour": "2026-11-09T01:00Z",
-      "requests": 35
+      "requests": 38
     }
   ],
   "traffic": {
-    "avg_latency_ms": 23645.8,
-    "avg_ms": 19004.8,
-    "completed": 45037,
+    "avg_latency_ms": 23645.0,
+    "avg_ms": 19003.6,
+    "completed": 45040,
     "errors": 628,
     "free_tier_buyers": 60,
     "free_tier_calls": 895,
     "free_tier_ips": 34,
-    "input_tokens": 1371872135,
+    "input_tokens": 1371872219,
     "max_ms": 652316,
-    "output_tokens": 30192887,
-    "req_bytes": 5901848563,
-    "requests": 45427,
-    "resp_bytes": 2612252673,
+    "output_tokens": 30192951,
+    "req_bytes": 5901848887,
+    "requests": 45430,
+    "resp_bytes": 2612299141,
     "today": {
-      "avg_latency_ms": 13185.1,
-      "events": 29,
-      "input_tokens": 1319,
-      "output_tokens": 1887,
-      "total_tokens": 3206
+      "avg_latency_ms": 12766.7,
+      "events": 30,
+      "input_tokens": 1403,
+      "output_tokens": 1951,
+      "total_tokens": 3354
     },
-    "total_tokens": 1402065022
+    "total_tokens": 1402065170
   },
   "wallet": {
     "address": "0x7b35030F77793159E86933E678B4e502c8FD9509",
