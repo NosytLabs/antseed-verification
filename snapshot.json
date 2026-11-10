@@ -1,19 +1,19 @@
 {
   "ants": {},
-  "generated_at": 1794353128.7238014,
-  "generated_at_iso": "2026-11-10T23:25:28Z",
+  "generated_at": 1794353434.019017,
+  "generated_at_iso": "2026-11-10T23:30:34Z",
   "models": [
     {
-      "avg_ms": 26194.1,
+      "avg_ms": 26193.1,
       "errors": 449,
       "model": "zai-org/GLM-5.3-Flash",
-      "requests": 24074
+      "requests": 24075
     },
     {
-      "avg_ms": 5240.2,
+      "avg_ms": 5239.5,
       "errors": 46,
       "model": "MiniMaxAI/MiniMax-M2.7",
-      "requests": 12703
+      "requests": 12705
     },
     {
       "avg_ms": 23705.6,
@@ -107,7 +107,7 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 7781
+    "uptime_s": 8086
   },
   "timeline": [
     {
@@ -948,35 +948,35 @@
     {
       "errors": 1,
       "hour": "2026-11-10T23:00Z",
-      "requests": 19
+      "requests": 22
     }
   ],
   "traffic": {
-    "avg_latency_ms": 24889.0,
-    "avg_ms": 20124.0,
-    "completed": 49176,
+    "avg_latency_ms": 24887.7,
+    "avg_ms": 20122.9,
+    "completed": 49179,
     "errors": 648,
-    "free_tier_buyers": 87,
-    "free_tier_calls": 2918,
+    "free_tier_buyers": 85,
+    "free_tier_calls": 2765,
     "free_tier_ips": 66,
-    "input_tokens": 1500978196,
+    "input_tokens": 1500978274,
     "max_ms": 652316,
-    "output_tokens": 33565121,
-    "req_bytes": 6414260737,
-    "requests": 49608,
-    "resp_bytes": 2896922342,
+    "output_tokens": 33565249,
+    "req_bytes": 6414261049,
+    "requests": 49611,
+    "resp_bytes": 2896963820,
     "today": {
-      "avg_latency_ms": 38681.1,
-      "events": 2726,
-      "input_tokens": 121015358,
-      "output_tokens": 2973233,
-      "total_tokens": 123988591
+      "avg_latency_ms": 38653.5,
+      "events": 2728,
+      "input_tokens": 121015436,
+      "output_tokens": 2973361,
+      "total_tokens": 123988797
     },
-    "total_tokens": 1534543317
+    "total_tokens": 1534543523
   },
   "wallet": {
     "address": "0x7b35030F77793159E86933E678B4e502c8FD9509",
-    "balance_eth": 0.013663590919098674,
+    "balance_eth": 0.013659238846402116,
     "chain": "base"
   }
 }
