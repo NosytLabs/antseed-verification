@@ -1,7 +1,7 @@
 {
   "ants": {},
-  "generated_at": 1794341138.3214214,
-  "generated_at_iso": "2026-11-10T20:05:38Z",
+  "generated_at": 1794345327.6996791,
+  "generated_at_iso": "2026-11-10T21:15:27Z",
   "models": [
     {
       "avg_ms": 26125.3,
@@ -107,7 +107,7 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 716
+    "uptime_s": 4906
   },
   "timeline": [
     {
