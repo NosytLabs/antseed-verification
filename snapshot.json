@@ -1,7 +1,7 @@
 {
   "ants": {},
-  "generated_at": 1794318817.53806,
-  "generated_at_iso": "2026-11-10T13:53:37Z",
+  "generated_at": 1794319116.483263,
+  "generated_at_iso": "2026-11-10T13:58:36Z",
   "models": [
     {
       "avg_ms": 26081.5,
@@ -10,16 +10,16 @@
       "requests": 23815
     },
     {
-      "avg_ms": 5185.8,
+      "avg_ms": 5185.7,
       "errors": 46,
       "model": "MiniMaxAI/MiniMax-M2.7",
-      "requests": 12580
+      "requests": 12581
     },
     {
-      "avg_ms": 23179.8,
+      "avg_ms": 23192.0,
       "errors": 128,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "requests": 12312
+      "requests": 12315
     },
     {
       "avg_ms": 34517.4,
@@ -107,7 +107,7 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 4074
+    "uptime_s": 4373
   },
   "timeline": [
     {
@@ -948,31 +948,31 @@
     {
       "errors": 0,
       "hour": "2026-11-10T13:00Z",
-      "requests": 121
+      "requests": 125
     }
   ],
   "traffic": {
-    "avg_latency_ms": 24687.5,
-    "avg_ms": 19910.6,
-    "completed": 48561,
+    "avg_latency_ms": 24691.0,
+    "avg_ms": 19913.6,
+    "completed": 48566,
     "errors": 642,
     "free_tier_buyers": 62,
-    "free_tier_calls": 2604,
+    "free_tier_calls": 2608,
     "free_tier_ips": 59,
-    "input_tokens": 1483028681,
+    "input_tokens": 1483029056,
     "max_ms": 652316,
-    "output_tokens": 32833652,
-    "req_bytes": 6342194597,
-    "requests": 48982,
-    "resp_bytes": 2851196727,
+    "output_tokens": 32833972,
+    "req_bytes": 6342195104,
+    "requests": 48986,
+    "resp_bytes": 2851269214,
     "today": {
-      "avg_latency_ms": 38751.0,
-      "events": 2214,
-      "input_tokens": 103065843,
-      "output_tokens": 2241764,
-      "total_tokens": 105307607
+      "avg_latency_ms": 38774.7,
+      "events": 2219,
+      "input_tokens": 103066218,
+      "output_tokens": 2242084,
+      "total_tokens": 105308302
     },
-    "total_tokens": 1515862333
+    "total_tokens": 1515863028
   },
   "wallet": {
     "address": "0x7b35030F77793159E86933E678B4e502c8FD9509",
