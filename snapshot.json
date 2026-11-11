@@ -1,25 +1,25 @@
 {
   "ants": {},
-  "generated_at": 1794366225.609074,
-  "generated_at_iso": "2026-11-11T03:03:45Z",
+  "generated_at": 1794366542.5349512,
+  "generated_at_iso": "2026-11-11T03:09:02Z",
   "models": [
     {
-      "avg_ms": 26165.9,
+      "avg_ms": 26164.8,
       "errors": 450,
       "model": "zai-org/GLM-5.3-Flash",
-      "requests": 24136
+      "requests": 24137
     },
     {
-      "avg_ms": 5229.6,
+      "avg_ms": 5228.9,
       "errors": 46,
       "model": "MiniMaxAI/MiniMax-M2.7",
-      "requests": 12759
+      "requests": 12761
     },
     {
-      "avg_ms": 23681.1,
+      "avg_ms": 23679.2,
       "errors": 132,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "requests": 12599
+      "requests": 12600
     },
     {
       "avg_ms": 34517.4,
@@ -107,7 +107,7 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 20878
+    "uptime_s": 21195
   },
   "timeline": [
     {
@@ -948,31 +948,31 @@
     {
       "errors": 0,
       "hour": "2026-11-11T03:00Z",
-      "requests": 2
+      "requests": 6
     }
   ],
   "traffic": {
-    "avg_latency_ms": 24863.8,
-    "avg_ms": 20095.3,
-    "completed": 49337,
+    "avg_latency_ms": 24863.1,
+    "avg_ms": 20093.8,
+    "completed": 49341,
     "errors": 649,
     "free_tier_buyers": 76,
-    "free_tier_calls": 2354,
+    "free_tier_calls": 2355,
     "free_tier_ips": 63,
-    "input_tokens": 1501493492,
+    "input_tokens": 1501493531,
     "max_ms": 652316,
-    "output_tokens": 33589725,
-    "req_bytes": 6416325421,
-    "requests": 49769,
-    "resp_bytes": 2903395784,
+    "output_tokens": 33589789,
+    "req_bytes": 6416325827,
+    "requests": 49773,
+    "resp_bytes": 2903452737,
     "today": {
-      "avg_latency_ms": 12676.7,
-      "events": 62,
-      "input_tokens": 73482,
-      "output_tokens": 23925,
-      "total_tokens": 97407
+      "avg_latency_ms": 12481.3,
+      "events": 63,
+      "input_tokens": 73521,
+      "output_tokens": 23989,
+      "total_tokens": 97510
     },
-    "total_tokens": 1535083217
+    "total_tokens": 1535083320
   },
   "wallet": {
     "address": "0x7b35030F77793159E86933E678B4e502c8FD9509",
