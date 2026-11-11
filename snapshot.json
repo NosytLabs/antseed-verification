@@ -1,13 +1,13 @@
 {
   "ants": {},
-  "generated_at": 1794391855.9250538,
-  "generated_at_iso": "2026-11-11T10:10:55Z",
+  "generated_at": 1794392155.625085,
+  "generated_at_iso": "2026-11-11T10:15:55Z",
   "models": [
     {
-      "avg_ms": 26108.5,
+      "avg_ms": 26107.5,
       "errors": 468,
       "model": "zai-org/GLM-5.3-Flash",
-      "requests": 24245
+      "requests": 24246
     },
     {
       "avg_ms": 5442.4,
@@ -16,10 +16,10 @@
       "requests": 12932
     },
     {
-      "avg_ms": 23566.0,
+      "avg_ms": 23564.8,
       "errors": 132,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "requests": 12684
+      "requests": 12685
     },
     {
       "avg_ms": 34517.4,
@@ -107,7 +107,7 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 46508
+    "uptime_s": 46808
   },
   "timeline": [
     {
@@ -948,31 +948,31 @@
     {
       "errors": 1,
       "hour": "2026-11-11T10:00Z",
-      "requests": 23
+      "requests": 25
     }
   ],
   "traffic": {
-    "avg_latency_ms": 24832.9,
-    "avg_ms": 20061.4,
-    "completed": 49704,
+    "avg_latency_ms": 24832.2,
+    "avg_ms": 20060.8,
+    "completed": 49706,
     "errors": 667,
     "free_tier_buyers": 65,
     "free_tier_calls": 1223,
     "free_tier_ips": 42,
-    "input_tokens": 1510489138,
+    "input_tokens": 1510489151,
     "max_ms": 652316,
-    "output_tokens": 33676301,
-    "req_bytes": 6452025640,
-    "requests": 50136,
-    "resp_bytes": 2924195594,
+    "output_tokens": 33676365,
+    "req_bytes": 6452025857,
+    "requests": 50138,
+    "resp_bytes": 2924224573,
     "today": {
-      "avg_latency_ms": 18603.5,
-      "events": 294,
-      "input_tokens": 9069128,
-      "output_tokens": 110501,
-      "total_tokens": 9179629
+      "avg_latency_ms": 18545.1,
+      "events": 295,
+      "input_tokens": 9069141,
+      "output_tokens": 110565,
+      "total_tokens": 9179706
     },
-    "total_tokens": 1544165439
+    "total_tokens": 1544165516
   },
   "wallet": {
     "address": "0x7b35030F77793159E86933E678B4e502c8FD9509",
