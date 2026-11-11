@@ -1,13 +1,13 @@
 {
   "ants": {},
-  "generated_at": 1794370742.2698746,
-  "generated_at_iso": "2026-11-11T04:19:02Z",
+  "generated_at": 1794371043.6056004,
+  "generated_at_iso": "2026-11-11T04:24:03Z",
   "models": [
     {
-      "avg_ms": 26155.0,
+      "avg_ms": 26153.9,
       "errors": 450,
       "model": "zai-org/GLM-5.3-Flash",
-      "requests": 24152
+      "requests": 24153
     },
     {
       "avg_ms": 5229.4,
@@ -16,10 +16,10 @@
       "requests": 12776
     },
     {
-      "avg_ms": 23660.9,
+      "avg_ms": 23663.1,
       "errors": 132,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "requests": 12614
+      "requests": 12616
     },
     {
       "avg_ms": 34517.4,
@@ -107,7 +107,7 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 25395
+    "uptime_s": 25696
   },
   "timeline": [
     {
@@ -948,31 +948,31 @@
     {
       "errors": 0,
       "hour": "2026-11-11T04:00Z",
-      "requests": 12
+      "requests": 15
     }
   ],
   "traffic": {
-    "avg_latency_ms": 24853.8,
-    "avg_ms": 20082.9,
-    "completed": 49385,
+    "avg_latency_ms": 24854.3,
+    "avg_ms": 20083.2,
+    "completed": 49388,
     "errors": 649,
     "free_tier_buyers": 74,
     "free_tier_calls": 2182,
     "free_tier_ips": 59,
-    "input_tokens": 1501498750,
+    "input_tokens": 1501498834,
     "max_ms": 652316,
-    "output_tokens": 33594393,
-    "req_bytes": 6416348269,
-    "requests": 49817,
-    "resp_bytes": 2904779193,
+    "output_tokens": 33594457,
+    "req_bytes": 6416348593,
+    "requests": 49820,
+    "resp_bytes": 2904823774,
     "today": {
-      "avg_latency_ms": 11406.4,
-      "events": 82,
-      "input_tokens": 78740,
-      "output_tokens": 28593,
-      "total_tokens": 107333
+      "avg_latency_ms": 11754.2,
+      "events": 83,
+      "input_tokens": 78824,
+      "output_tokens": 28657,
+      "total_tokens": 107481
     },
-    "total_tokens": 1535093143
+    "total_tokens": 1535093291
   },
   "wallet": {
     "address": "0x7b35030F77793159E86933E678B4e502c8FD9509",
