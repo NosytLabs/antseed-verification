@@ -1,25 +1,25 @@
 {
   "ants": {},
-  "generated_at": 1794405670.0132809,
-  "generated_at_iso": "2026-11-11T14:01:10Z",
+  "generated_at": 1794405883.181859,
+  "generated_at_iso": "2026-11-11T14:04:43Z",
   "models": [
     {
-      "avg_ms": 26072.5,
+      "avg_ms": 26071.5,
       "errors": 468,
       "model": "zai-org/GLM-5.3-Flash",
-      "requests": 24294
+      "requests": 24295
     },
     {
-      "avg_ms": 5432.5,
+      "avg_ms": 5432.1,
       "errors": 46,
       "model": "MiniMaxAI/MiniMax-M2.7",
-      "requests": 12974
+      "requests": 12975
     },
     {
-      "avg_ms": 23558.3,
+      "avg_ms": 23559.8,
       "errors": 132,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "requests": 12726
+      "requests": 12727
     },
     {
       "avg_ms": 34517.4,
@@ -69,7 +69,7 @@
   "redacted": true,
   "schema": 1,
   "seller": {
-    "active_channels": 5,
+    "active_channels": 0,
     "dht_port": 56881,
     "free_tier": {
       "max_concurrent_buyers": 20,
@@ -107,14 +107,9 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 60322
+    "uptime_s": 190
   },
   "timeline": [
-    {
-      "errors": 0,
-      "hour": "2026-11-04T14:00Z",
-      "requests": 36
-    },
     {
       "errors": 0,
       "hour": "2026-11-04T15:00Z",
@@ -949,12 +944,17 @@
       "errors": 0,
       "hour": "2026-11-11T13:00Z",
       "requests": 23
+    },
+    {
+      "errors": 0,
+      "hour": "2026-11-11T14:00Z",
+      "requests": 3
     }
   ],
   "traffic": {
     "avg_latency_ms": 24815.3,
-    "avg_ms": 20035.7,
-    "completed": 49838,
+    "avg_ms": 20035.4,
+    "completed": 49841,
     "errors": 667,
     "free_tier_buyers": 59,
     "free_tier_calls": 825,
@@ -962,9 +962,9 @@
     "input_tokens": 1511574213,
     "max_ms": 652316,
     "output_tokens": 33689501,
-    "req_bytes": 6456119378,
-    "requests": 50270,
-    "resp_bytes": 2928305365,
+    "req_bytes": 6456119674,
+    "requests": 50273,
+    "resp_bytes": 2928347097,
     "today": {
       "avg_latency_ms": 17707.0,
       "events": 344,
