@@ -1,13 +1,13 @@
 {
   "ants": {},
-  "generated_at": 1794371648.4731066,
-  "generated_at_iso": "2026-11-11T04:34:08Z",
+  "generated_at": 1794371948.8353734,
+  "generated_at_iso": "2026-11-11T04:39:08Z",
   "models": [
     {
-      "avg_ms": 26151.8,
+      "avg_ms": 26150.7,
       "errors": 450,
       "model": "zai-org/GLM-5.3-Flash",
-      "requests": 24155
+      "requests": 24156
     },
     {
       "avg_ms": 5230.2,
@@ -16,10 +16,10 @@
       "requests": 12779
     },
     {
-      "avg_ms": 23661.3,
+      "avg_ms": 23657.6,
       "errors": 132,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "requests": 12617
+      "requests": 12619
     },
     {
       "avg_ms": 34517.4,
@@ -107,7 +107,7 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 26301
+    "uptime_s": 26601
   },
   "timeline": [
     {
@@ -948,35 +948,35 @@
     {
       "errors": 0,
       "hour": "2026-11-11T04:00Z",
-      "requests": 21
+      "requests": 24
     }
   ],
   "traffic": {
-    "avg_latency_ms": 24852.9,
-    "avg_ms": 20081.3,
-    "completed": 49394,
+    "avg_latency_ms": 24852.2,
+    "avg_ms": 20080.1,
+    "completed": 49397,
     "errors": 649,
     "free_tier_buyers": 75,
     "free_tier_calls": 2184,
     "free_tier_ips": 59,
-    "input_tokens": 1501498996,
+    "input_tokens": 1501499080,
     "max_ms": 652316,
-    "output_tokens": 33594649,
-    "req_bytes": 6416349217,
-    "requests": 49826,
-    "resp_bytes": 2904907723,
+    "output_tokens": 33594713,
+    "req_bytes": 6416349541,
+    "requests": 49829,
+    "resp_bytes": 2904952304,
     "today": {
-      "avg_latency_ms": 11639.4,
-      "events": 86,
-      "input_tokens": 78986,
-      "output_tokens": 28849,
-      "total_tokens": 107835
+      "avg_latency_ms": 11514.2,
+      "events": 87,
+      "input_tokens": 79070,
+      "output_tokens": 28913,
+      "total_tokens": 107983
     },
-    "total_tokens": 1535093645
+    "total_tokens": 1535093793
   },
   "wallet": {
     "address": "0x7b35030F77793159E86933E678B4e502c8FD9509",
-    "balance_eth": 0.013630766972747533,
+    "balance_eth": 0.013629833206875407,
     "chain": "base"
   }
 }
