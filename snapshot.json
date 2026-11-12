@@ -1,22 +1,22 @@
 {
   "ants": {},
-  "generated_at": 1794491157.0028012,
-  "generated_at_iso": "2026-11-12T13:45:57Z",
+  "generated_at": 1794491470.4769406,
+  "generated_at_iso": "2026-11-12T13:51:10Z",
   "models": [
     {
-      "avg_ms": 25808.6,
+      "avg_ms": 25807.8,
       "errors": 470,
       "model": "zai-org/GLM-5.3-Flash",
-      "requests": 24588
+      "requests": 24589
     },
     {
       "avg_ms": 5485.0,
       "errors": 47,
       "model": "MiniMaxAI/MiniMax-M2.7",
-      "requests": 13369
+      "requests": 13371
     },
     {
-      "avg_ms": 23808.9,
+      "avg_ms": 23845.9,
       "errors": 133,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
       "requests": 13020
@@ -107,7 +107,7 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 75840
+    "uptime_s": 76153
   },
   "timeline": [
     {
@@ -948,31 +948,31 @@
     {
       "errors": 2,
       "hour": "2026-11-12T13:00Z",
-      "requests": 31
+      "requests": 34
     }
   ],
   "traffic": {
-    "avg_latency_ms": 24720.3,
-    "avg_ms": 19928.3,
-    "completed": 50804,
+    "avg_latency_ms": 24719.7,
+    "avg_ms": 19936.9,
+    "completed": 50807,
     "errors": 671,
     "free_tier_buyers": 23,
-    "free_tier_calls": 290,
+    "free_tier_calls": 291,
     "free_tier_ips": 24,
-    "input_tokens": 1512094366,
+    "input_tokens": 1512094405,
     "max_ms": 652316,
-    "output_tokens": 33728971,
-    "req_bytes": 6458855087,
-    "requests": 51254,
-    "resp_bytes": 2945148992,
+    "output_tokens": 33729035,
+    "req_bytes": 6458855386,
+    "requests": 51257,
+    "resp_bytes": 2945190391,
     "today": {
-      "avg_latency_ms": 20882.2,
-      "events": 169,
-      "input_tokens": 365480,
-      "output_tokens": 20505,
-      "total_tokens": 385985
+      "avg_latency_ms": 20784.4,
+      "events": 170,
+      "input_tokens": 365519,
+      "output_tokens": 20569,
+      "total_tokens": 386088
     },
-    "total_tokens": 1545823337
+    "total_tokens": 1545823440
   },
   "wallet": {
     "address": "0x7b35030F77793159E86933E678B4e502c8FD9509",
