@@ -1,19 +1,19 @@
 {
   "ants": {},
-  "generated_at": 1794476982.2065678,
-  "generated_at_iso": "2026-11-12T09:49:42Z",
+  "generated_at": 1794477287.9128394,
+  "generated_at_iso": "2026-11-12T09:54:47Z",
   "models": [
     {
-      "avg_ms": 25830.2,
+      "avg_ms": 25829.5,
       "errors": 468,
       "model": "zai-org/GLM-5.3-Flash",
-      "requests": 24541
+      "requests": 24542
     },
     {
-      "avg_ms": 5462.6,
+      "avg_ms": 5461.9,
       "errors": 47,
       "model": "MiniMaxAI/MiniMax-M2.7",
-      "requests": 13304
+      "requests": 13306
     },
     {
       "avg_ms": 23547.4,
@@ -107,7 +107,7 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 61665
+    "uptime_s": 61971
   },
   "timeline": [
     {
@@ -948,35 +948,35 @@
     {
       "errors": 0,
       "hour": "2026-11-12T09:00Z",
-      "requests": 35
+      "requests": 38
     }
   ],
   "traffic": {
-    "avg_latency_ms": 24725.9,
-    "avg_ms": 19875.6,
-    "completed": 50653,
+    "avg_latency_ms": 24724.5,
+    "avg_ms": 19874.6,
+    "completed": 50656,
     "errors": 668,
     "free_tier_buyers": 23,
-    "free_tier_calls": 275,
-    "free_tier_ips": 18,
-    "input_tokens": 1512088035,
+    "free_tier_calls": 277,
+    "free_tier_ips": 19,
+    "input_tokens": 1512088118,
     "max_ms": 652316,
-    "output_tokens": 33724721,
-    "req_bytes": 6458822709,
-    "requests": 51090,
-    "resp_bytes": 2942978632,
+    "output_tokens": 33724852,
+    "req_bytes": 6458823027,
+    "requests": 51093,
+    "resp_bytes": 2943019466,
     "today": {
-      "avg_latency_ms": 20580.9,
-      "events": 109,
-      "input_tokens": 359149,
-      "output_tokens": 16255,
-      "total_tokens": 375404
+      "avg_latency_ms": 20230.3,
+      "events": 111,
+      "input_tokens": 359232,
+      "output_tokens": 16386,
+      "total_tokens": 375618
     },
-    "total_tokens": 1545812756
+    "total_tokens": 1545812970
   },
   "wallet": {
     "address": "0x7b35030F77793159E86933E678B4e502c8FD9509",
-    "balance_eth": 0.013464009812500994,
+    "balance_eth": 0.013462864986866814,
     "chain": "base"
   }
 }
