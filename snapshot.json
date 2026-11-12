@@ -1,25 +1,25 @@
 {
   "ants": {},
-  "generated_at": 1794523434.7009318,
-  "generated_at_iso": "2026-11-12T22:43:54Z",
+  "generated_at": 1794523731.7238712,
+  "generated_at_iso": "2026-11-12T22:48:51Z",
   "models": [
     {
-      "avg_ms": 25737.8,
+      "avg_ms": 25736.9,
       "errors": 471,
       "model": "zai-org/GLM-5.3-Flash",
-      "requests": 24696
+      "requests": 24697
     },
     {
-      "avg_ms": 5790.6,
+      "avg_ms": 5790.3,
       "errors": 48,
       "model": "MiniMaxAI/MiniMax-M2.7",
-      "requests": 13565
+      "requests": 13566
     },
     {
-      "avg_ms": 24546.2,
+      "avg_ms": 24578.2,
       "errors": 134,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "requests": 13141
+      "requests": 13142
     },
     {
       "avg_ms": 34517.4,
@@ -69,7 +69,7 @@
   "redacted": true,
   "schema": 1,
   "seller": {
-    "active_channels": 5,
+    "active_channels": 4,
     "dht_port": 56881,
     "free_tier": {
       "max_concurrent_buyers": 20,
@@ -107,7 +107,7 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 108118
+    "uptime_s": 108415
   },
   "timeline": [
     {
@@ -948,13 +948,13 @@
     {
       "errors": 1,
       "hour": "2026-11-12T22:00Z",
-      "requests": 30
+      "requests": 33
     }
   ],
   "traffic": {
     "avg_latency_ms": 24761.4,
-    "avg_ms": 20128.7,
-    "completed": 51200,
+    "avg_ms": 20136.3,
+    "completed": 51203,
     "errors": 674,
     "free_tier_buyers": 26,
     "free_tier_calls": 316,
@@ -962,9 +962,9 @@
     "input_tokens": 1512360783,
     "max_ms": 652316,
     "output_tokens": 33750185,
-    "req_bytes": 6459921822,
-    "requests": 51679,
-    "resp_bytes": 2952480115,
+    "req_bytes": 6459922118,
+    "requests": 51682,
+    "resp_bytes": 2952522445,
     "today": {
       "avg_latency_ms": 26943.5,
       "events": 368,
@@ -976,7 +976,7 @@
   },
   "wallet": {
     "address": "0x7b35030F77793159E86933E678B4e502c8FD9509",
-    "balance_eth": 0.013351595621387435,
+    "balance_eth": 0.013350660772865059,
     "chain": "base"
   }
 }
