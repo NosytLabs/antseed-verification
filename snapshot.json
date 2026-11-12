@@ -1,13 +1,13 @@
 {
   "ants": {},
-  "generated_at": 1794475171.6321235,
-  "generated_at_iso": "2026-11-12T09:19:31Z",
+  "generated_at": 1794475472.186021,
+  "generated_at_iso": "2026-11-12T09:24:32Z",
   "models": [
     {
-      "avg_ms": 25836.1,
+      "avg_ms": 25835.3,
       "errors": 468,
       "model": "zai-org/GLM-5.3-Flash",
-      "requests": 24535
+      "requests": 24536
     },
     {
       "avg_ms": 5464.9,
@@ -16,10 +16,10 @@
       "requests": 13296
     },
     {
-      "avg_ms": 23544.2,
+      "avg_ms": 23542.4,
       "errors": 132,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "requests": 12961
+      "requests": 12962
     },
     {
       "avg_ms": 34517.4,
@@ -107,7 +107,7 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 59854
+    "uptime_s": 60155
   },
   "timeline": [
     {
@@ -948,31 +948,31 @@
     {
       "errors": 0,
       "hour": "2026-11-12T09:00Z",
-      "requests": 14
+      "requests": 16
     }
   ],
   "traffic": {
-    "avg_latency_ms": 24726.7,
-    "avg_ms": 19879.2,
-    "completed": 50632,
+    "avg_latency_ms": 24726.1,
+    "avg_ms": 19878.6,
+    "completed": 50634,
     "errors": 668,
     "free_tier_buyers": 22,
     "free_tier_calls": 269,
     "free_tier_ips": 16,
-    "input_tokens": 1512087692,
+    "input_tokens": 1512087776,
     "max_ms": 652316,
-    "output_tokens": 33724053,
-    "req_bytes": 6458820478,
-    "requests": 51069,
-    "resp_bytes": 2942681796,
+    "output_tokens": 33724117,
+    "req_bytes": 6458820695,
+    "requests": 51071,
+    "resp_bytes": 2942711247,
     "today": {
-      "avg_latency_ms": 20475.8,
-      "events": 99,
-      "input_tokens": 358806,
-      "output_tokens": 15587,
-      "total_tokens": 374393
+      "avg_latency_ms": 20277.2,
+      "events": 100,
+      "input_tokens": 358890,
+      "output_tokens": 15651,
+      "total_tokens": 374541
     },
-    "total_tokens": 1545811745
+    "total_tokens": 1545811893
   },
   "wallet": {
     "address": "0x7b35030F77793159E86933E678B4e502c8FD9509",
