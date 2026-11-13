@@ -1,13 +1,13 @@
 {
   "ants": {},
-  "generated_at": 1794572682.9802222,
-  "generated_at_iso": "2026-11-13T12:24:42Z",
+  "generated_at": 1794572987.1375787,
+  "generated_at_iso": "2026-11-13T12:29:47Z",
   "models": [
     {
-      "avg_ms": 25632.6,
+      "avg_ms": 25633.0,
       "errors": 471,
       "model": "zai-org/GLM-5.3-Flash",
-      "requests": 24859
+      "requests": 24860
     },
     {
       "avg_ms": 6509.2,
@@ -16,10 +16,10 @@
       "requests": 13790
     },
     {
-      "avg_ms": 25702.4,
+      "avg_ms": 25724.3,
       "errors": 142,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "requests": 13315
+      "requests": 13317
     },
     {
       "avg_ms": 34517.4,
@@ -107,7 +107,7 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 3016
+    "uptime_s": 3320
   },
   "timeline": [
     {
@@ -948,31 +948,31 @@
     {
       "errors": 0,
       "hour": "2026-11-13T12:00Z",
-      "requests": 15
+      "requests": 18
     }
   ],
   "traffic": {
-    "avg_latency_ms": 24901.4,
-    "avg_ms": 20533.3,
-    "completed": 51720,
+    "avg_latency_ms": 24909.0,
+    "avg_ms": 20539.5,
+    "completed": 51723,
     "errors": 687,
     "free_tier_buyers": 26,
     "free_tier_calls": 367,
     "free_tier_ips": 23,
-    "input_tokens": 1512375974,
+    "input_tokens": 1512376011,
     "max_ms": 652316,
-    "output_tokens": 33763969,
-    "req_bytes": 6460003862,
-    "requests": 52241,
-    "resp_bytes": 2959915368,
+    "output_tokens": 33763986,
+    "req_bytes": 6460004170,
+    "requests": 52244,
+    "resp_bytes": 2959960380,
     "today": {
-      "avg_latency_ms": 47317.9,
-      "events": 194,
-      "input_tokens": 14637,
-      "output_tokens": 12838,
-      "total_tokens": 27475
+      "avg_latency_ms": 48613.7,
+      "events": 195,
+      "input_tokens": 14674,
+      "output_tokens": 12855,
+      "total_tokens": 27529
     },
-    "total_tokens": 1546139943
+    "total_tokens": 1546139997
   },
   "wallet": {
     "address": "0x7b35030F77793159E86933E678B4e502c8FD9509",
