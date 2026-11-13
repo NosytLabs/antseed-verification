@@ -1,25 +1,25 @@
 {
   "ants": {},
-  "generated_at": 1794580922.921163,
-  "generated_at_iso": "2026-11-13T14:42:02Z",
+  "generated_at": 1794581227.5698318,
+  "generated_at_iso": "2026-11-13T14:47:07Z",
   "models": [
     {
-      "avg_ms": 25622.6,
+      "avg_ms": 25621.8,
       "errors": 471,
       "model": "zai-org/GLM-5.3-Flash",
-      "requests": 24887
+      "requests": 24888
     },
     {
-      "avg_ms": 6501.5,
+      "avg_ms": 6501.6,
       "errors": 53,
       "model": "MiniMaxAI/MiniMax-M2.7",
-      "requests": 13820
+      "requests": 13821
     },
     {
-      "avg_ms": 25772.9,
+      "avg_ms": 25771.1,
       "errors": 142,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "requests": 13345
+      "requests": 13346
     },
     {
       "avg_ms": 34517.4,
@@ -69,7 +69,7 @@
   "redacted": true,
   "schema": 1,
   "seller": {
-    "active_channels": 4,
+    "active_channels": 3,
     "dht_port": 56881,
     "free_tier": {
       "max_concurrent_buyers": 20,
@@ -107,7 +107,7 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 11256
+    "uptime_s": 11560
   },
   "timeline": [
     {
@@ -948,35 +948,35 @@
     {
       "errors": 0,
       "hour": "2026-11-13T14:00Z",
-      "requests": 29
+      "requests": 32
     }
   ],
   "traffic": {
-    "avg_latency_ms": 24903.5,
-    "avg_ms": 20542.4,
-    "completed": 51806,
+    "avg_latency_ms": 24903.0,
+    "avg_ms": 20541.5,
+    "completed": 51809,
     "errors": 687,
     "free_tier_buyers": 26,
-    "free_tier_calls": 364,
-    "free_tier_ips": 23,
-    "input_tokens": 1512388817,
+    "free_tier_calls": 354,
+    "free_tier_ips": 22,
+    "input_tokens": 1512388856,
     "max_ms": 652316,
-    "output_tokens": 33765583,
-    "req_bytes": 6460062084,
-    "requests": 52329,
-    "resp_bytes": 2961198860,
+    "output_tokens": 33765647,
+    "req_bytes": 6460062395,
+    "requests": 52332,
+    "resp_bytes": 2961241990,
     "today": {
-      "avg_latency_ms": 45201.5,
-      "events": 218,
-      "input_tokens": 27480,
-      "output_tokens": 14452,
-      "total_tokens": 41932
+      "avg_latency_ms": 45030.5,
+      "events": 219,
+      "input_tokens": 27519,
+      "output_tokens": 14516,
+      "total_tokens": 42035
     },
-    "total_tokens": 1546154400
+    "total_tokens": 1546154503
   },
   "wallet": {
     "address": "0x7b35030F77793159E86933E678B4e502c8FD9509",
-    "balance_eth": 0.013242802395914225,
+    "balance_eth": 0.013240544707229344,
     "chain": "base"
   }
 }
