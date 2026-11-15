@@ -1,25 +1,25 @@
 {
   "ants": {},
-  "generated_at": 1794780116.8115284,
-  "generated_at_iso": "2026-11-15T22:01:56Z",
+  "generated_at": 1794780418.296662,
+  "generated_at_iso": "2026-11-15T22:06:58Z",
   "models": [
     {
-      "avg_ms": 25102.8,
+      "avg_ms": 25101.3,
       "errors": 472,
       "model": "zai-org/GLM-5.3-Flash",
-      "requests": 25554
+      "requests": 25556
     },
     {
-      "avg_ms": 6714.5,
+      "avg_ms": 6713.9,
       "errors": 56,
       "model": "MiniMaxAI/MiniMax-M2.7",
-      "requests": 14489
+      "requests": 14491
     },
     {
-      "avg_ms": 25026.6,
+      "avg_ms": 25024.1,
       "errors": 142,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "requests": 14023
+      "requests": 14025
     },
     {
       "avg_ms": 34517.4,
@@ -69,13 +69,13 @@
   "redacted": true,
   "schema": 1,
   "seller": {
-    "active_channels": 1,
+    "active_channels": 0,
     "dht_port": 56881,
     "free_tier": {
       "max_concurrent_buyers": 20,
       "max_upload_bytes": 16777216,
-      "per_buyer_per_day": 1000,
-      "per_ip_per_day": 1000
+      "per_buyer_per_day": 150,
+      "per_ip_per_day": 150
     },
     "peer_count": 0,
     "peer_id": "7b35030f77793159e86933e678b4e502c8fd9509",
@@ -107,14 +107,9 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 192826
+    "uptime_s": 100
   },
   "timeline": [
-    {
-      "errors": 5,
-      "hour": "2026-11-08T22:00Z",
-      "requests": 151
-    },
     {
       "errors": 1,
       "hour": "2026-11-08T23:00Z",
@@ -949,30 +944,35 @@
       "errors": 0,
       "hour": "2026-11-15T21:00Z",
       "requests": 36
+    },
+    {
+      "errors": 0,
+      "hour": "2026-11-15T22:00Z",
+      "requests": 6
     }
   ],
   "traffic": {
-    "avg_latency_ms": 24784.6,
-    "avg_ms": 20116.6,
-    "completed": 53807,
+    "avg_latency_ms": 24784.0,
+    "avg_ms": 20115.0,
+    "completed": 53813,
     "errors": 691,
     "free_tier_buyers": 27,
     "free_tier_calls": 362,
     "free_tier_ips": 22,
-    "input_tokens": 1512404073,
+    "input_tokens": 1512404112,
     "max_ms": 652316,
-    "output_tokens": 33787752,
-    "req_bytes": 6460269031,
-    "requests": 54344,
-    "resp_bytes": 2990089440,
+    "output_tokens": 33787816,
+    "req_bytes": 6460269639,
+    "requests": 54350,
+    "resp_bytes": 2990176474,
     "today": {
-      "avg_latency_ms": 12700.3,
-      "events": 157,
-      "input_tokens": 6123,
-      "output_tokens": 10048,
-      "total_tokens": 16171
+      "avg_latency_ms": 12634.8,
+      "events": 158,
+      "input_tokens": 6162,
+      "output_tokens": 10112,
+      "total_tokens": 16274
     },
-    "total_tokens": 1546191825
+    "total_tokens": 1546191928
   },
   "wallet": {
     "address": "0x7b35030F77793159E86933E678B4e502c8FD9509",
