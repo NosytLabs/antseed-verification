@@ -1,7 +1,7 @@
 {
   "ants": {},
-  "generated_at": 1794748769.3501244,
-  "generated_at_iso": "2026-11-15T13:19:29Z",
+  "generated_at": 1794749053.4539125,
+  "generated_at_iso": "2026-11-15T13:24:13Z",
   "models": [
     {
       "avg_ms": 25193.2,
@@ -19,7 +19,7 @@
       "avg_ms": 25141.1,
       "errors": 142,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "requests": 13919
+      "requests": 13920
     },
     {
       "avg_ms": 34517.4,
@@ -107,7 +107,7 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 161479
+    "uptime_s": 161763
   },
   "timeline": [
     {
@@ -948,7 +948,7 @@
     {
       "errors": 0,
       "hour": "2026-11-15T13:00Z",
-      "requests": 12
+      "requests": 13
     }
   ],
   "traffic": {
@@ -962,8 +962,8 @@
     "input_tokens": 1512401460,
     "max_ms": 652316,
     "output_tokens": 33783464,
-    "req_bytes": 6460237270,
-    "requests": 54033,
+    "req_bytes": 6460237377,
+    "requests": 54034,
     "resp_bytes": 2985637668,
     "today": {
       "avg_latency_ms": 20870.7,
