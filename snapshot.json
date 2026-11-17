@@ -1,25 +1,25 @@
 {
   "ants": {},
-  "generated_at": 1794873402.9138093,
-  "generated_at_iso": "2026-11-16T23:56:42Z",
+  "generated_at": 1794873727.250247,
+  "generated_at_iso": "2026-11-17T00:02:07Z",
   "models": [
     {
-      "avg_ms": 25532.8,
+      "avg_ms": 25531.9,
       "errors": 487,
       "model": "zai-org/GLM-5.3-Flash",
-      "requests": 26511
+      "requests": 26512
     },
     {
-      "avg_ms": 6689.7,
+      "avg_ms": 6689.2,
       "errors": 56,
       "model": "MiniMaxAI/MiniMax-M2.7",
-      "requests": 14806
+      "requests": 14807
     },
     {
-      "avg_ms": 25038.8,
+      "avg_ms": 25037.1,
       "errors": 143,
       "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
-      "requests": 14339
+      "requests": 14340
     },
     {
       "avg_ms": 34517.4,
@@ -107,14 +107,9 @@
     "provider": "oma-ai",
     "signaling_port": 56882,
     "state": "seeding",
-    "uptime_s": 1867
+    "uptime_s": 2192
   },
   "timeline": [
-    {
-      "errors": 0,
-      "hour": "2026-11-10T00:00Z",
-      "requests": 171
-    },
     {
       "errors": 0,
       "hour": "2026-11-10T01:00Z",
@@ -949,12 +944,17 @@
       "errors": 0,
       "hour": "2026-11-16T23:00Z",
       "requests": 78
+    },
+    {
+      "errors": 0,
+      "hour": "2026-11-17T00:00Z",
+      "requests": 3
     }
   ],
   "traffic": {
     "avg_latency_ms": 25000.4,
-    "avg_ms": 20339.6,
-    "completed": 55382,
+    "avg_ms": 20338.5,
+    "completed": 55385,
     "errors": 707,
     "free_tier_buyers": 94,
     "free_tier_calls": 880,
@@ -962,15 +962,15 @@
     "input_tokens": 1536500314,
     "max_ms": 652316,
     "output_tokens": 34274560,
-    "req_bytes": 6562313072,
-    "requests": 55975,
-    "resp_bytes": 3063566088,
+    "req_bytes": 6562313368,
+    "requests": 55978,
+    "resp_bytes": 3063568438,
     "today": {
-      "avg_latency_ms": 32229.9,
-      "events": 789,
-      "input_tokens": 18298542,
-      "output_tokens": 432338,
-      "total_tokens": 18730880
+      "avg_latency_ms": null,
+      "events": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0
     },
     "total_tokens": 1570774874
   },
